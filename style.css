@@ -101,7 +101,7 @@
 
 
 .navbar .container4{
-    max-width: 1200px;
+    max-width: 1400px;
     margin:0px auto;
     display: flex;
     justify-content:space-between;
@@ -139,7 +139,7 @@ nav ul li {
     position: relative;
     list-style: none;
     display: inline-block;
-    cursor: url('hand2.png'), auto;
+
    
    
 }
