@@ -230,6 +230,48 @@ nav ul li:hover > ul {
     input:checked ~ #menu {
         left: 0;
     }
+
+    .photo-gallery{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        grid-gap: 60px;
+    }
+    
+    .pic{
+        position: relative;
+        height: 230px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px lightgray;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
+    .pic img{
+        width: 100%;
+        height: 100%;
+        border-radius:20px;
+        transition: .5s;
+    }
+    
+    .desc{
+        padding:15px;
+        text-align:center;
+        color:white;
+    }
+    
+    
+    
+    
+    .photo-gallery .pic:hover
+    {
+        filter:grayscale(0);
+        transform: scale(1.1);
+        cursor: url('hand2.png'), auto;
+    }
+    
+    
 }
 
 
@@ -407,41 +449,7 @@ nav ul li:hover > ul {
 
 
 
-/* .pic::before{
-    content: "PHOTO GALLERY";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -25%);
-    color:white;
-    font-size:22px;
-    font-weight:bold;
-    width: 100%;
-    margin-top: -100px;
-    opacity: 0;
-    transition: .3s;
-    transition-delay: .2s;
-    z-index:1;
-}
-.pic:after{
-    content: "";
-    position:absolute;
-    width: 100%;
-    bottom: 0;
-    left:0;
-    border-radius: 10px;
-    height:0;
-    background-color: rgba(0,0,0,4);
-    transition: .3s;
-}
-.pic:hover::after{
-    height:100%;
-}
 
-.pic:hover::before{
-    margin-top: 0;
-    opacity: 1;
-} */
 .photo-gallery .pic:hover
 {
     filter:grayscale(0);
