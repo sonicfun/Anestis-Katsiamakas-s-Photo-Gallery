@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 
  body{
     
@@ -12,7 +14,7 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    font-family:'Share Tech', sans-serif; 
+    font-family : 'Poppins', sans-serif;
     cursor: url('Hacker\ Cursor.png'), auto;
    
  }
@@ -22,28 +24,17 @@
 .paragraph{
     font-size: 30px;
     line-height: 60px;
+   
     font-family:'Share Tech', sans-serif;
   
 }
 .paragraph1{
     font-size: 30px;
     line-height: 60px;
-    font-family:'Share Tech', sans-serif;
+
+    font-family:"Cookie";
 }
 
-
-
-.paragraph2{
-    font-size: 30px;
-    line-height: 30px;
-     font-family:'Share Tech', sans-serif; 
-}
-
-.paragraph3{
-    font-size: 100px;
-    line-height: 60px;
-    font-family:'Share Tech', sans-serif;
-}
 
 .paragraphEL{
     font-size: 17px;
@@ -57,6 +48,11 @@
     line-height: 80px; 
     font-family: 'Roboto Slab', serif; 
 
+}
+.paragraph2{
+    font-size: 30px;
+    line-height: 30px;
+    font-family:'Share Tech', sans-serif;
 }
 
 .paragraph2EL{
@@ -76,24 +72,34 @@
     line-height: 60px;
   
 }
-
-
-.paragraphEL{
-    font-size: 30px;
-    line-height:30px;
-    font-family: 'Roboto Slab', serif;
+.paragraph3{
+    font-size: 100px;
+    line-height: 60px;
+    font-family:"Cookie";
 }
 
-
-
-
-.navbar{
+.navbar2{
     width: 115%;
     color:#fff;
     background-color:black;
     height:70px;
  
 } 
+
+
+
+.navbar .container6{
+    max-width: 1200px;
+    margin:0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 40px;
+    
+}
+
+
+
 
 
 
@@ -111,7 +117,7 @@ nav ul li {
     position: relative;
     list-style: none;
     display: inline-block;
-
+    cursor: url('hand2.png'), auto;
    
    
 }
@@ -125,7 +131,10 @@ nav ul li a{
     font-size: 20px;
     line-height:60px;
     margin: 0px 60px;
-
+    /* text-transform: uppercase; */
+   
+   
+   
 }
 
 nav ul li a:hover{
@@ -163,11 +172,36 @@ nav ul li:hover > ul {
 }
 
 
+input {
+    display: none;
+}
+
+
+label {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border: 1px solid #fff;
+    color: #ffff;
+    margin-right: 20px;
+    display: none;
+}
+
+label span {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ 
 .section{
     
     position:relative;
     width: 100%;
-    height: 400px;
+    height: 100vh;
     object-fit: cover;
     pointer-events: none;
     display: flex;
@@ -200,7 +234,23 @@ nav ul li:hover > ul {
     overflow: hidden;
 }
 
+.video-container{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    
+}
 
+.color-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:#fff;
+    width:100%;
+    height:100vh;
+    opacity: 0.5;
+}
 
 @keyframes transitionIn{
     from {
@@ -214,11 +264,51 @@ nav ul li:hover > ul {
     }
 }
 
+.photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 60px;
+}
+
+.pic{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    transition: .5s;
+}
+
+.desc{
+    padding:15px;
+    text-align:center;
+    color:white;
+}
+
+
+
+
+.photo-gallery .pic:hover
+{
+    filter:grayscale(0);
+    transform: scale(1.1);
+    cursor: url('hand2.png'), auto;
+}
+
 
 .container2
 {
   width: 1300px;
-  height: 1110px;
+  height: 1050px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
@@ -243,10 +333,10 @@ nav ul li:hover > ul {
     margin: 0;
     padding:0;
     font-size: 80px;
-    color:rgb(0, 0, 0);
+    color:black;
     z-index: 1;
     opacity: 0.4;
-    font-family:'Share Tech', sans-serif;
+    font-family:"Cookie";
     cursor: url('I.png'), auto;
  
 }
@@ -256,10 +346,10 @@ nav ul li:hover > ul {
     margin: 0;
     padding:0;
     font-size: 35px;
-    color:rgb(27, 27, 27);
+    color:black;
     z-index: 1;
-    opacity: 0.;
-    font-family:'Share Tech', sans-serif;
+    opacity: 0.4;
+    font-family:"Cookie";
     cursor: url('I.png'), auto;
 }
 
@@ -269,34 +359,78 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 10px;
+    font-size: 20px;
     color:black;
-    font-family:'Share Tech', sans-serif;
+    font-family:"Cookie";
     cursor: url('I.png'), auto;
 }
 
-.container4
+.container5
 {
   width: 1300px;
-  height: 1110px;
+  height: 1050px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
   grid-gap: 40px;
   padding: 200px;
   box-sizing: border-box ;
-
 }
-.container6{
-    width: 90%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0px 0px 20px #00000010;
-    background-color:slategrey;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    font-family:'Share Tech', sans-serif;
+.container5 .box2{
+    position: relative;
+    background:white;
+    box-shadow: 20px 20px 30px black;
+    padding: 40px 90px 90px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container5 .box2 h3
+{
+    position:relative;
+    margin: 0;
+    padding:0;
+    font-size: 80px;
+    color:black;
+    z-index: 1;
+    opacity: 0.4;
+    font-family: 'Roboto Slab', serif; 
+}
+.container5 .box2 h4
+{
+    position:relative;
+    margin: 0;
+    padding:0;
+    font-size: 30px;
+    color:black;
+    z-index: 1;
+    opacity: 0.4;
+    font-family: 'Roboto Slab', serif; 
+}
+
+
+.container5 .box2 p
+{
+    position:relative;
+    margin: 0;
+    padding:0;
+    font-size: 17px;
+    color:black;
+    font-family: 'Roboto Slab', serif; 
+    
+}
+
+
+.container4
+{
+  width: 1300px;
+  height: 1050px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  grid-gap: 40px;
+  padding: 200px;
+  box-sizing: border-box ;
 }
 .container4 .box2{
     position: relative;
@@ -305,7 +439,6 @@ nav ul li:hover > ul {
     padding: 40px 90px 90px;
     text-align: center;
     overflow: hidden;
-   
 }
 
 .container4 .box2 h3
@@ -314,24 +447,19 @@ nav ul li:hover > ul {
     margin: 0;
     padding:0;
     font-size: 80px;
-    color:rgb(0, 0, 0);
+    color:black;
     z-index: 1;
     opacity: 0.4;
-    font-family: 'Roboto Slab', serif;
-    cursor: url('I.png'), auto;
- 
+    font-family: 'Roboto Slab', serif; 
 }
 .container4 .box2 h4
 {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 35px;
-    color:rgb(27, 27, 27);
-    z-index: 1;
-    opacity: 0.;
-    font-family: 'Roboto Slab', serif;
-    cursor: url('I.png'), auto;
+    font-size: 30px;
+    color:black;
+    font-family: 'Roboto Slab', serif; 
 }
 
 
@@ -340,8 +468,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 9px;
+    font-size: 17px;
     color:black;
-    font-family: 'Roboto Slab', serif;
-    cursor: url('I.png'), auto;
+    font-family: 'Roboto Slab', serif; 
 }
