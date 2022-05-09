@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
+   
+    font-family:'Share Tech', sans-serif;
     cursor: url('Hacker\ Cursor.png'), auto;
  
 }
@@ -14,6 +15,7 @@ input{
     display: none;
 }
 
+/*From container until top content. It contains the selection. */
 .container3{
     width:100%;
     text-align: center;
@@ -22,7 +24,7 @@ input{
 
 .top-content{
     background-color: rgb(26, 26, 26);
-    width:100%;
+    width:115%;
     margin: 0 auto 20-x auto;
     height: 60px;
     display: flex;
@@ -45,12 +47,14 @@ h5{
     padding: 0 50px;
     color:white;
 }
+
+/*this is the label and hover for checkers */
 label{
     display: inline-block;
     height: 100%;
     margin: 0 20px;
     line-height:60px;
-    font-size: 18px;
+    font-size: 14px;
     color:white;
     cursor: pointer;
     transition: color .5s;
@@ -60,22 +64,26 @@ label:hover{
     color:gray;
 }
 
+/*From photo gallery until img:hover. It is the function of the picture. */
 .photo-gallery{
-    width: 90%;
+    width: 110%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     grid-gap: 60px;
     cursor: url('Hacker\ Cursor.png'), auto;
+    
 }
 
 .pic{
     position: relative;
-    height: 230px;
-    border-radius: 10px;
+    height: 250px;
+    border-radius: 30px;
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
     transition: .5s;
+    cursor: url('hand2.png'), auto;
+
 }
 
 .pic img{
@@ -83,6 +91,8 @@ label:hover{
     height: 100%;
     border-radius:20px;
     transition: .5s;
+    cursor: url('hand2.png'), auto;
+
 }
 .photo-gallery .pic img:hover
 {
@@ -92,11 +102,81 @@ label:hover{
 
 }
 
-.desc{
-    padding:15px;
-    text-align:center;
-    color:white;
+
+@media(max-width: 800px){
+
+    .container3{
+        width:100%;
+        text-align: center;
+       
+    }
+    
+    .top-content{
+        background-color: rgb(26, 26, 26);
+        width:145%;
+        margin: 0 auto 20-x auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    h3{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+    h5{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+
+    label{
+        display: inline-block;
+        height: 70%;
+        margin: 1px;
+        line-height:10px;
+        font-size: 14px;
+        color:white;
+        cursor: pointer;
+        transition: color .5s;
+
+    }
+    label:hover{
+        color:gray;
+    }
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }  
+    
+    .paragraph2{
+        font-size: 15px;
+        line-height: 20px;
+         font-family:'Share Tech', sans-serif; 
+    }
+    .paragraph2EL{
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Roboto Slab', serif;
 }
+.paragraph4EL{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+    
+}
+
+/* the rest of the css code is the checker for all the pictures.*/
 
 #check1:checked ~ .container3 .photo-gallery .pic{
     opacity: 1;
@@ -373,3 +453,4 @@ label:hover{
     transition: .0s;
     
 }
+

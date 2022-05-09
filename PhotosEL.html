@@ -5,8 +5,6 @@
         <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.rtl.min.css" 
         integrity="sha512-sBvFexih8/HG6HayD7CJlCGlMIfdewyHBe2JBSb7vXRuL6qOmfo059kkqfFFwvnC9qIB6med8QO/ZDkVDcI1ng==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,42 +21,43 @@
         integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" 
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-        <link rel="stylesheet" href="style.css">
-      
-         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styleEL.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="mobile.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
      
         <link rel="stylesheet" href="Photos.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    
-        <title> Anestis Katsiamakas</title>
     </head>
     <body>
-
-     
-        <div class="navbar">
-            <div class="container4" >
+        <!-- This is the navbar menu with a hamburger function attached -->
+        <div class="navbar2">
+            <nav> 
+              <div class="openMenu"><i class="fa fa-bars"></i></div>
               
-                <nav> 
-                    <input type="checkbox" id="box-1">
-                   <label id="toggler" for="box-1">
-                  <span>ΜΕΝΟΥ <i class="fas fa-bars"></i></span>
-                  </label>
-                        <ul>
-                        <li><a href="indexEL.html"class="paragraphEL">Αρχική</a></li>
-                        <li><a href="aboutEl.html"class="paragraphEL">Σχετικά με</a></li>
-                        <li><a href="PhotosEL.html"class="paragraphEL">Φωτογραφίες</a></li>
-                        <li><a href="Photos.html" class="paragraphEL">ΑΓ &nbsp;&nbsp;<span><i class="fa fa-angle-down"></i></span></a>
-                            <ul>
-                            <li><a href="PhotosEL.html" class="paragraphEL">ΕΛ</a></li>
-                        </ul>
-                          </li>
-                        <li><a href="contactEl.html"class="paragraphEL">Επικοινωνία</a></li>  
-                        </ul>
-                    </nav>
-            </div>
-        </div>
-           
+                <ul class="mainMenu">
+                       <li><a href="indexEL.html"class="paragraphEL"></i>Αρχική</a></li>
+                       <li><a href="aboutEl.html"class="paragraphEL"></i>Σχετικά</a></li>
+                       <li><a href="PhotosEL.html"class="paragraphEL"></i>Φωτογραφίες</a></li>
+                       <li><a href="Photos.html" class="paragraphEL">ΑΓ &nbsp;&nbsp;<span><i class="fa fa-angle-down"></i></span></a>
+                           <ul>
+                           <li><a href="PhotosEL.html" class="paragraphEL">ΕΛ</a></li>
+                       </ul>
+                         </li>
+                       <li><a href="contactEl.html"class="paragraphEL"></i>Επικοινωνία</a></li>
+                       <div class="closeMenu"><i class="fa fa-times"></i></div>  
+                 </ul>   
+          </nav> 
+    </div> 
+
+    <!-- This is the checker for the picture selection -->  
     <input type= "radio" name= "Photos" id="check1" checked>    
     <input type= "radio" name= "Photos" id="check2">
     <input type= "radio" name= "Photos" id="check3">
@@ -72,7 +71,7 @@
     <input type= "radio" name= "Photos" id="check11"> 
     <input type= "radio" name= "Photos" id="check12"> 
 
-
+<!-- This is the container which holds the labels and the photos. --> 
 
     <div class="container3">
         
@@ -94,7 +93,7 @@
 
         <div class="photo-gallery">
             <div class="pic Old">
-                <a href="Black and White Photos/woman in the dark.jpg" data-lightbox="mygallery" data-zoom-image="Black and White Photos/woman in the dark.jpg"><img src="Black and White Photos/woman in the dark.jpg"></a>
+                <a href="Black and White Photos/woman in the dark.jpg" data-lightbox="mygallery"><img src="Black and White Photos/woman in the dark.jpg"></a>
                </div>
                <div class="pic Old">
                    <a href="Black and White Photos/woman in the sun.jpg"data-lightbox="mygallery"><img src="Black and White Photos/woman in the sun.jpg"></a>
@@ -1703,6 +1702,8 @@
   </div>
     </div>
 </div>
+<!-- This is the script for the mobile hamburger navigation --> 
+<script src="./mobilenavigation.js"></script>
 
    </body>
 

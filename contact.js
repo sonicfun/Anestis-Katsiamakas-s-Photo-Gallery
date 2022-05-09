@@ -1,7 +1,7 @@
+ /*This is the script which communicates with the contact form */
 window.addEventListener("DOMConentLoaded", function(){
 
     var form = document.getElementById("my-form");
-    // var button = document.getElementById("my-form-button");
     var status = document.getElementById("status");
 
     function success(){

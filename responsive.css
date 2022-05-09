@@ -1,0 +1,345 @@
+ /*This is media screen for the navbar, paragraphs and containers */
+ @media (max-width:768px) {
+   #menu {
+       position:absolute;
+       top:60px;
+       left:-100%;
+       transition: 0.4s linear;
+       width: 100%;
+   }
+    nav > ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        transition: 0.8s linear;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    label {
+        display: flex;
+        margin-right: 10px;
+    }
+
+
+
+    nav ul li ul {
+        width: max-content;
+        z-index: 1;
+    }
+
+    input:checked ~ #menu {
+        left: 0;
+    }
+
+
+} 
+
+
+
+@media screen and (min-width:768px)
+{
+     .navbar{
+        font-size:4rem;
+    }
+    
+    .navbar .container{
+      font-size:0.75rem;
+  }
+
+  .navbar2 .container4{
+    font-size:0.75rem;
+  }
+  
+  .navbar2 .container6{
+      font-size:0.75rem;
+  }
+  
+  .navbar .container2{
+    font-size:0.75rem;
+  }
+
+  .navbar .container5{
+    font-size:0.75rem;
+}
+  
+    .navbar .container6{
+       font-size:1.75rem;
+    }
+    
+    .section3{
+      font-size:0.75rem;
+    }
+    
+  
+    .container3{
+        font-size:0.75rem;
+    }
+    
+    .container2 .box{
+      font-size:0.75rem;
+    }
+    
+    .container2 .box p{
+      font-size:0.75rem;
+    }
+    
+    .container2 .box h3{
+      font-size:0.89rem;
+    }
+    
+    .container2 .box h4{
+      font-size:1rem;
+    }
+    .paragraph{
+        font-size:0.75rem;
+    }
+    .paragraphEL{
+        font-size:0.75rem;
+    }
+    
+    .container4{
+      font-size: 0.75rem;
+    }
+    .container4 .box2{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 p{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 h3{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 h4{
+        font-size:0.75rem;
+      }
+      .container5{
+        font-size: 0.75rem;
+      }
+      .container6{
+        font-size: 0.75rem;
+      }
+      .paragraph2{
+          font-size:1.75rem;
+      }
+      .paragraph2EL{
+        font-size:1.12rem;
+    } 
+ 
+      .paragraphEL2{
+          font-size:0.75rem;
+      }
+      
+    
+     
+
+}
+
+
+
+
+@media screen and (min-width:992px)
+{ .navbar{
+    font-size:4rem;
+}
+
+
+.navbar .container{
+  font-size:0.75rem;
+}
+.navbar2 .container4{
+  font-size:0.75rem;
+}
+
+.navbar2 .container6{
+    font-size:0.75rem;
+}
+
+.navbar .container5{
+  font-size:0.75rem;
+}
+
+
+.section3{
+  font-size:0.75rem;
+}
+
+
+.navbar .container2{
+  font-size:0.75rem;
+}
+
+.container2 .box{
+  font-size:0.65rem;
+}
+
+.container2 .box p{
+  font-size:1rem;
+}
+
+.container2 .box h3{
+  font-size:2rem;
+}
+
+.container2 .box h4{
+  font-size: 3rem;
+}
+
+.container3{
+  font-size:0.75rem;
+}
+.paragraph{
+    font-size:0.75rem;
+}
+.paragraphEL{
+    font-size:0.75rem;
+}
+
+.container4{
+  font-size: 0.75rem;
+}
+.container4 .box2{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 p{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h3{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h4{
+    font-size:0.75rem;
+  }
+  .paragraph{
+      font-size:1.75rem;
+  }
+  .paragraphEL{
+      font-size:0.75rem;
+  }
+  .paragraph2EL{
+    font-size:0.75rem;
+} 
+
+  .paragraph2{
+    font-size:0.75rem;
+}
+.paragraphEL2{
+  font-size:0.75rem;
+}
+
+
+
+    
+    
+} 
+
+
+
+@media screen and (min-width:1200px)
+{
+     .navbar{
+        font-size:0.75rem;
+    }
+    
+    
+    .navbar .container{
+      font-size:0.75rem;
+    }
+
+    .navbar2 .container4{
+      font-size:0.75rem;
+  }
+
+  .navbar .container5{
+    font-size:0.75rem;
+  }
+    
+    .navbar2 .container6{
+        font-size:0.75rem;
+    }
+
+  
+    .section3{
+      font-size:0.75rem;
+    }
+    
+    .navbar .container2{
+      font-size:0.75rem;
+    }
+    
+    .container2 .box{
+      font-size:4rem;
+    }
+    
+    .container2 .box p{
+      font-size:1.35rem;
+    }
+    
+    .container2 .box h3{
+      font-size:4rem;
+    }
+    
+    .container2 .box h4{
+      font-size:2rem;
+    }
+
+    .container3{
+      font-size:0.75rem;
+  }
+  
+
+  .container6{
+    font-size: 0.75rem;
+  }
+  .container4 .box2{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 p{
+    font-size:1.10rem;
+  }
+  
+  .container4 .box2 h3{
+    font-size:3rem;
+  }
+  
+  .container4 .box2 h4{
+    font-size:2rem;
+  }
+      .paragraph{
+          font-size:1.95rem;
+      }
+      .paragraphEL{
+          font-size:1.12rem;
+      }
+      .paragraph2EL{
+        font-size:1.12rem;
+    } 
+      
+    .paragraph2{
+      font-size:1.95rem;
+  }
+  .paragraphEL2{
+    font-size:1.12rem;
+} 
+
+  
+}  
+
+
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ } 

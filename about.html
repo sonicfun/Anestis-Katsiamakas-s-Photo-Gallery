@@ -5,23 +5,23 @@
         <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="backgroundcolor.css">
-        <title> Anestis Katsiamakas</title>
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="mobile.css">
     </head>
-
-    <div class="navbar">
-        <div class="container">
-                <nav> 
-                    <input type="checkbox" id="box-1">
-                   <label id="toggler" for="box-1">
-                    <span class="paragraph">MENU <i class="fas fa-bars"></i></span>
-                  </label>
-                
-             
-                    <ul id="menu">
+<body>
+  
+        <!-- This is the navbar menu with a hamburger function attached -->
+               <nav> 
+                 
+                  
+                  <div class="openMenu"><i class="fa fa-bars"></i></div>
+               
+                  <ul class="mainMenu">
                         <li><a href="index.html" class="paragraph">Home</a></li>
                         <li><a href="about.html"class="paragraph"></i>About</a></li>
                         <li><a href="Photos.html"class="paragraph"></i>Photos</a></li>
@@ -30,17 +30,15 @@
                             <li><a href="aboutEl.html" class="paragraph">GR</a></li>
                         </ul>
                           </li>
-                        <li><a href="contact.html"class="paragraph"></i>Contact</a></li>  
+                        <li><a href="contact.html"class="paragraph"></i>Contact</a></li>
+                        <div class="closeMenu"><i class="fa fa-times"></i></div>  
                     </ul>  
 
               </ul> 
                    
         </nav> 
                 
-        </div>
-    </div>
-  
-    
+         <!--This is the section which has the picture of Anestis. With css style.  --> 
         
         <section>
             <div class="section3">
@@ -48,7 +46,7 @@
        
             </div>
            
-           
+            <!--This is the container 2 which holds the title, date and description.  --> 
             
             <div class="container2">
              <div class="box">
@@ -72,9 +70,9 @@
                 </p>   
                  </div>
                 
-             </div>
-         </section>
-
-       
+            </div>
+        </section>
+<!-- This is the script for the mobile hamburger navigation --> 
+         <script src="./mobilenavigation.js"></script>
     </body>
 </html>
