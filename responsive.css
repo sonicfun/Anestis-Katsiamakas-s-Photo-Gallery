@@ -1,4 +1,199 @@
  /*This is media screen for the navbar, paragraphs and containers */
+
+ @media (min-width:320px) {
+
+  .navbar{
+    font-size:4rem;
+}
+
+.navbar .container{
+  font-size:0.75rem;
+}
+
+.navbar2 .container4{
+font-size:0.75rem;
+}
+
+.navbar2 .container6{
+  font-size:0.75rem;
+}
+
+.navbar .container2{
+font-size:0.75rem;
+}
+
+.navbar .container5{
+font-size:0.75rem;
+}
+
+.navbar .container6{
+   font-size:1.75rem;
+}
+
+.section3{
+  font-size:0.75rem;
+}
+
+
+.container3{
+    font-size:0.75rem;
+}
+
+.container2 .box{
+  font-size:0.75rem;
+}
+
+.container2 .box p{
+  font-size:0.75rem;
+}
+
+.container2 .box h3{
+  font-size:0.89rem;
+}
+
+.container2 .box h4{
+  font-size:1rem;
+}
+.paragraph{
+    font-size:0.75rem;
+}
+.paragraphEL{
+    font-size:0.75rem;
+}
+
+.container4{
+  font-size: 0.75rem;
+}
+.container4 .box2{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 p{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h3{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h4{
+    font-size:0.75rem;
+  }
+  .container5{
+    font-size: 0.75rem;
+  }
+  .container6{
+    font-size: 0.75rem;
+  }
+  .paragraph2{
+      font-size:1.75rem;
+  }
+  .paragraph2EL{
+    font-size:1.12rem;
+} 
+
+  .paragraphEL2{
+      font-size:0.75rem;
+  }
+  
+ }
+ @media (max-width:480px){
+  
+  .navbar{
+       font-size:4rem;
+   }
+   
+   .navbar .container{
+     font-size:0.75rem;
+ }
+
+ .navbar2 .container4{
+   font-size:0.75rem;
+ }
+ 
+ .navbar2 .container6{
+     font-size:0.75rem;
+ }
+ 
+ .navbar .container2{
+   font-size:0.75rem;
+ }
+
+ .navbar .container5{
+   font-size:0.75rem;
+}
+ 
+   .navbar .container6{
+      font-size:1.75rem;
+   }
+   
+   .section3{
+     font-size:0.75rem;
+   }
+   
+ 
+   .container3{
+       font-size:0.75rem;
+   }
+   
+   .container2 .box{
+     font-size:0.75rem;
+   }
+   
+   .container2 .box p{
+     font-size:0.75rem;
+   }
+   
+   .container2 .box h3{
+     font-size:0.89rem;
+   }
+   
+   .container2 .box h4{
+     font-size:1rem;
+   }
+   .paragraph{
+       font-size:0.75rem;
+   }
+   .paragraphEL{
+       font-size:0.75rem;
+   }
+   
+   .container4{
+     font-size: 0.75rem;
+   }
+   .container4 .box2{
+       font-size:0.75rem;
+     }
+     
+     .container4 .box2 p{
+       font-size:0.75rem;
+     }
+     
+     .container4 .box2 h3{
+       font-size:0.75rem;
+     }
+     
+     .container4 .box2 h4{
+       font-size:0.75rem;
+     }
+     .container5{
+       font-size: 0.75rem;
+     }
+     .container6{
+       font-size: 0.75rem;
+     }
+     .paragraph2{
+         font-size:1.75rem;
+     }
+     .paragraph2EL{
+       font-size:1.12rem;
+   } 
+
+     .paragraphEL2{
+         font-size:0.75rem;
+     }
+     
+ }
  @media (max-width:768px) {
    #menu {
        position:absolute;
