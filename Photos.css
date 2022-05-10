@@ -183,7 +183,7 @@ label:hover{
 }
 
 .photo-gallery{
-    width: 70%;
+    width: 700%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
