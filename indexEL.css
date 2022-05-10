@@ -118,8 +118,85 @@ margin-bottom:0.5rem;
 
   /* The rest of css is media screen from mobile to computer.*/
 
+  @media screen and (min-width:480px)
+  {
+       
+ #hero {
+  height:100vh;
+  width:100%;
+  background:red;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+#hero::after {
+width:100%;
+height:100%;
+content: '';
+position:absolute;
+z-index:10;
+top:0;
+left:0;
+background:rgba(0,0,0,0.5)
+}
+
+/* the video */
+#hero video {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:5;
+object-fit:cover;
+font-family:'object-fit: cover';
+}
+
+
+/* the texture which covers the video */
+#hero .texture {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:15;
+background:url('texture.png');
+ }
+
+}
+
+
 @media screen and (min-width:768px)
 {
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+   width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:2.5rem;
     font-family: 'Roboto Slab', serif;
@@ -136,10 +213,167 @@ margin-bottom:0.5rem;
 }
 
 
+   .navbar{
+        font-size:4rem;
+    }
+    
+    .navbar .container{
+      font-size:0.75rem;
+  }
 
+  .navbar2 .container4{
+    font-size:0.75rem;
+  }
+  
+  .navbar2 .container6{
+      font-size:0.75rem;
+  }
+  
+  .navbar .container2{
+    font-size:0.75rem;
+  }
+
+  .navbar .container5{
+    font-size:0.75rem;
+}
+  
+    .navbar .container6{
+       font-size:1.75rem;
+    }
+    
+    .section3{
+      font-size:0.75rem;
+    }
+    
+  
+    .container3{
+        font-size:0.75rem;
+    }
+    
+    .container2 .box{
+      font-size:0.75rem;
+    }
+    
+    .container2 .box p{
+      font-size:0.75rem;
+    }
+    
+    .container2 .box h3{
+      font-size:0.89rem;
+    }
+    
+    .container2 .box h4{
+      font-size:1rem;
+    }
+    .paragraph{
+        font-size:0.75rem;
+    }
+    .paragraphEL{
+        font-size:0.75rem;
+    }
+    
+    .container4{
+      font-size: 0.75rem;
+    }
+    .container4 .box2{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 p{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 h3{
+        font-size:0.75rem;
+      }
+      
+      .container4 .box2 h4{
+        font-size:0.75rem;
+      }
+      .container5{
+        font-size: 0.75rem;
+      }
+      .container6{
+        font-size: 0.75rem;
+      }
+      .paragraph2{
+          font-size:1.75rem;
+      }
+      .paragraph2EL{
+        font-size:1.12rem;
+    } 
+ 
+      .paragraphEL2{
+          font-size:0.75rem;
+      }
+ 
+  @media (min-width:801px){
+    #hero {
+      font-size:0.75rem;
+    }
+    
+    
+    #hero::after {
+      font-size:2rem;
+    background:rgba(0,0,0,0.5)
+    }
+    
+    /* the video */
+    #hero video {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    font-family:'object-fit: cover';
+    }
+    
+    
+    /* the texture which covers the video */
+    #hero .texture {
+    font-size:0.75rem;
+    background:url('texture.png');
+     }
+  #hero .caption h1 {
+      font-size:3rem;
+      font-family: 'Roboto Slab', serif;
+       
+  }
+  
+  
+  #hero .caption a{
+      font-size:1rem;
+      font-family: 'Roboto Slab', serif;
+  }
+  
+
+  }    
 
 @media screen and (min-width:992px)
 {
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:3rem;
     font-family: 'Roboto Slab', serif;
@@ -158,6 +392,33 @@ margin-bottom:0.5rem;
 
 @media screen and (min-width:1200px)
 {
+  #hero {
+
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:4rem;
     font-family: 'Roboto Slab', serif; 

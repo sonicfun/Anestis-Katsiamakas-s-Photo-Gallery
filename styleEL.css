@@ -131,9 +131,6 @@ nav ul li a{
     font-size: 20px;
     line-height:60px;
     margin: 0px 60px;
-    /* text-transform: uppercase; */
-   
-   
    
 }
 
@@ -240,45 +237,6 @@ nav ul li:hover > ul {
     }
 }
 
-.photo-gallery{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    grid-gap: 60px;
-}
-
-.pic{
-    position: relative;
-    height: 230px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px lightgray;
-    cursor: pointer;
-    transition: .5s;
-}
-
-.pic img{
-    width: 100%;
-    height: 100%;
-    border-radius:20px;
-    transition: .5s;
-}
-
-.desc{
-    padding:15px;
-    text-align:center;
-    color:white;
-}
-
-
-
-
-.photo-gallery .pic:hover
-{
-    filter:grayscale(0);
-    transform: scale(1.1);
-    cursor: url('hand2.png'), auto;
-}
 
 
 .container2

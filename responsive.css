@@ -79,10 +79,18 @@ font-size:0.75rem;
   .container4 .box2 h4{
     font-size:0.75rem;
   }
-  .container5{
+  /* .container5{
     font-size: 0.75rem;
-  }
+  } */
   .container6{
+    width: 30%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color:slategrey;
+    border-radius: 8px;
+    margin-bottom: 20px;
     font-size: 0.75rem;
   }
   .paragraph2{
@@ -176,12 +184,20 @@ font-size:0.75rem;
      .container4 .box2 h4{
        font-size:0.75rem;
      }
-     .container5{
+     /* .container5{
        font-size: 0.75rem;
-     }
+     } */
      .container6{
-       font-size: 0.75rem;
-     }
+      width: 30%;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0px 0px 20px #00000010;
+      background-color:slategrey;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 0.75rem;
+    }
      .paragraph2{
          font-size:1.75rem;
      }
@@ -314,10 +330,18 @@ font-size:0.75rem;
       .container4 .box2 h4{
         font-size:0.75rem;
       }
-      .container5{
+      /* .container5{
         font-size: 0.75rem;
-      }
+      } */
       .container6{
+        width: 50%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0px 0px 20px #00000010;
+        background-color:slategrey;
+        border-radius: 8px;
+        margin-bottom: 20px;
         font-size: 0.75rem;
       }
       .paragraph2{
@@ -336,6 +360,111 @@ font-size:0.75rem;
 
 }
 
+@media (min-width:801px) {
+
+  .navbar{
+    font-size:4rem;
+}
+
+.navbar .container{
+  font-size:0.75rem;
+}
+
+.navbar2 .container4{
+font-size:0.75rem;
+}
+
+.navbar2 .container6{
+  font-size:0.75rem;
+}
+
+.navbar .container2{
+font-size:0.75rem;
+}
+
+.navbar .container5{
+font-size:0.75rem;
+}
+
+.navbar .container6{
+   font-size:1.75rem;
+}
+
+.section3{
+  font-size:0.75rem;
+}
+
+
+.container3{
+    font-size:0.75rem;
+}
+
+.container2 .box{
+  font-size:0.75rem;
+}
+
+.container2 .box p{
+  font-size:0.75rem;
+}
+
+.container2 .box h3{
+  font-size:0.89rem;
+}
+
+.container2 .box h4{
+  font-size:1rem;
+}
+.paragraph{
+    font-size:0.75rem;
+}
+.paragraphEL{
+    font-size:0.75rem;
+}
+
+.container4{
+  font-size: 0.75rem;
+}
+.container4 .box2{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 p{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h3{
+    font-size:0.75rem;
+  }
+  
+  .container4 .box2 h4{
+    font-size:0.75rem;
+  }
+  /* .container5{
+    font-size: 0.75rem;
+  } */
+  .container6{
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color:slategrey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+  }
+  .paragraph2{
+      font-size:1.75rem;
+  }
+  .paragraph2EL{
+    font-size:1.12rem;
+} 
+
+  .paragraphEL2{
+      font-size:0.75rem;
+  }
+  
+}
 
 
 
@@ -369,7 +498,18 @@ font-size:0.75rem;
 .navbar .container2{
   font-size:0.75rem;
 }
+.container2
+{
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  grid-gap: 40px;
+  padding: 200px;
+  box-sizing: border-box ;
 
+}
 .container2 .box{
   font-size:0.65rem;
 }
@@ -397,6 +537,14 @@ font-size:0.75rem;
 }
 
 .container4{
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  grid-gap: 40px;
+  padding: 200px;
+  box-sizing: border-box ;
   font-size: 0.75rem;
 }
 .container4 .box2{
@@ -414,6 +562,17 @@ font-size:0.75rem;
   .container4 .box2 h4{
     font-size:0.75rem;
   }
+  .container6{
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color:slategrey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+  }
   .paragraph{
       font-size:1.75rem;
   }
@@ -430,10 +589,7 @@ font-size:0.75rem;
 .paragraphEL2{
   font-size:0.75rem;
 }
-
-
-
-    
+ 
     
 } 
 
@@ -493,6 +649,14 @@ font-size:0.75rem;
   
 
   .container6{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color:slategrey;
+    border-radius: 8px;
+    margin-bottom: 20px;
     font-size: 0.75rem;
   }
   .container4 .box2{

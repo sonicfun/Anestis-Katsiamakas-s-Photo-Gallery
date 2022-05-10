@@ -116,6 +116,31 @@ margin-bottom:0.5rem;
 
 @media screen and (min-width:768px)
 {
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:2.5rem;
 }
@@ -130,10 +155,72 @@ margin-bottom:0.5rem;
 }
 
 
+@media (min-width:801px){
+
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
+#hero .caption h1 {
+    font-size:3rem;
+}
+
+
+#hero .caption a{
+    font-size:1rem;
+}
+
+}
 
 
 @media screen and (min-width:992px)
 {
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:3rem;
 }
@@ -149,6 +236,31 @@ margin-bottom:0.5rem;
 
 @media screen and (min-width:1200px)
 {
+  #hero {
+    font-size:0.75rem;
+  }
+  
+  
+  #hero::after {
+    font-size:2rem;
+  background:rgba(0,0,0,0.5)
+  }
+  
+  /* the video */
+  #hero video {
+  width:100%;
+  height:100%;
+  font-size:2rem;
+  object-fit:cover;
+  font-family:'object-fit: cover';
+  }
+  
+  
+  /* the texture which covers the video */
+  #hero .texture {
+  font-size:0.75rem;
+  background:url('texture.png');
+   }
 #hero .caption h1 {
     font-size:4rem;
 }
