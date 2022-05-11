@@ -103,8 +103,22 @@ label:hover{
 }
 
 
-@media(max-width: 380px) {
-    
+@media(max-width: 320px) {
+
+    /* .navbar{
+        width: 325%;
+        color:#fff;
+        background-color:black;
+        height:750px;  
+    }  
+ 
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }   */
     .container3{
         width:100%;
         text-align: center;
@@ -113,7 +127,7 @@ label:hover{
     
     .top-content{
         background-color: rgb(26, 26, 26);
-        width:145%;
+        width:115%;
         margin: 0 auto 20-x auto;
         height: 60px;
         display: flex;
@@ -122,10 +136,10 @@ label:hover{
         
     }
     h3{
-        height: 70%;
+        height: 100%;
         background-color:gray;
-        line-height: 30px;
-        padding: 0 30px;
+        line-height: 50px;
+        padding: 0 50px;
         color:white;
     }
     h5{
@@ -151,20 +165,7 @@ label:hover{
         color:gray;
     }
     
-    .navbar{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
- 
- 
-      .navbar2{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
+
     
     .paragraph2{
         font-size: 15px;
@@ -195,12 +196,12 @@ label:hover{
 .pic{
     position: relative;
     height: 250px;
+    width: 95px;
     border-radius: 30px;
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
     transition: .5s;
-    cursor: url('hand2.png'), auto;
-
+ 
 }
 
 .pic img{
@@ -208,7 +209,7 @@ label:hover{
     height: 100%;
     border-radius:20px;
     transition: .5s;
-    cursor: url('hand2.png'), auto;
+
 
 }
 .photo-gallery .pic img:hover
@@ -223,6 +224,19 @@ label:hover{
 }
 
 @media(max-width: 480px){
+    /* .navbar{
+        width: 155%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }  
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }   */
 
     .container3{
         width:100%;
@@ -232,9 +246,9 @@ label:hover{
     
     .top-content{
         background-color: rgb(26, 26, 26);
-        width:145%;
+        width:195%;
         margin: 0 auto 20-x auto;
-        height: 60px;
+        height: 39px;
         display: flex;
         align-items: center;
         
@@ -270,19 +284,7 @@ label:hover{
         color:gray;
     }
     
-     .navbar{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
- 
-      .navbar2{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
+    
     
     .paragraph2{
         font-size: 15px;
@@ -298,16 +300,6 @@ label:hover{
     font-size: 20px;
     line-height: 20px;
     font-family: 'Roboto Slab', serif;
-}
-
-.photo-gallery{
-    width: 70%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    grid-gap: 60px;
-    cursor: url('Hacker\ Cursor.png'), auto;
-    
 }
 
 .pic{
@@ -339,10 +331,148 @@ label:hover{
 
     
 }
+
+
+
+@media(max-width: 600px){
+    /* .navbar{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }  
+ 
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }   */
+
+    .container3{
+        width:100%;
+        text-align: center;
+       
+    }
+    
+    .top-content{
+        background-color: rgb(26, 26, 26);
+        width:185%;
+        margin: 0 auto 20-x auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    h3{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+    h5{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+
+    label{
+        display: inline-block;
+        height: 70%;
+        margin: 14px;
+        line-height:10px;
+        font-size: 14px;
+        color:white;
+        cursor: pointer;
+        transition: color .5s;
+
+    }
+    label:hover{
+        color:gray;
+    }
+    
+   
+    
+    .paragraph2{
+        font-size: 15px;
+        line-height: 20px;
+         font-family:'Share Tech', sans-serif; 
+    }
+    .paragraph2EL{
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Roboto Slab', serif;
+}
+.paragraph4EL{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.photo-gallery{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 60px;
+    cursor: url('Hacker\ Cursor.png'), auto;
+    
+}
+
+.pic{
+    position: relative;
+    height: 250px;
+    width: 110px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+.photo-gallery .pic img:hover
+{
+    filter:grayscale(100);
+    transform: scale(1.1);
+    cursor: url('hand2.png'), auto;
+
+}
+
+    
+}
+
 
 
 @media(max-width: 800px){
-
+ 
+    /* .navbar{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }  
+ 
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }   */
     .container3{
         width:100%;
         text-align: center;
@@ -351,7 +481,7 @@ label:hover{
     
     .top-content{
         background-color: rgb(26, 26, 26);
-        width:145%;
+        width:195%;
         margin: 0 auto 20-x auto;
         height: 60px;
         display: flex;
@@ -360,7 +490,7 @@ label:hover{
         
     }
     h3{
-        height: 70%;
+        height: 100%;
         background-color:gray;
         line-height: 30px;
         padding: 0 30px;
@@ -376,8 +506,8 @@ label:hover{
 
     label{
         display: inline-block;
-        height: 70%;
-        margin: 1px;
+        height: 100%;
+        margin: 14px;
         line-height:10px;
         font-size: 14px;
         color:white;
@@ -388,21 +518,7 @@ label:hover{
     label:hover{
         color:gray;
     }
-    
-    .navbar{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
- 
- 
-      .navbar2{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
+   
     
     .paragraph2{
         font-size: 15px;
@@ -433,6 +549,7 @@ label:hover{
 .pic{
     position: relative;
     height: 250px;
+    width: 160px;
     border-radius: 30px;
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
@@ -459,6 +576,127 @@ label:hover{
 
     
 }
+
+@media(max-width: 1200px){
+/*  
+    .navbar{
+        width: 175%;
+        color:#fff;
+        background-color:black;
+        height:90px;  
+    }  
+ 
+ 
+      .navbar2{
+        width: 145%;
+        color:#fff;
+        background-color:black;
+        height:70px;  
+    }   */
+    .container3{
+        width:100%;
+        text-align: center;
+       
+    }
+    
+    .top-content{
+        background-color: rgb(26, 26, 26);
+        width:195%;
+        margin: 0 auto 20-x auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    h3{
+        height: 100%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+    h5{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+
+    label{
+        display: inline-block;
+        height: 100%;
+        margin: 14px;
+        line-height:10px;
+        font-size: 14px;
+        color:white;
+        cursor: pointer;
+        transition: color .5s;
+
+    }
+    label:hover{
+        color:gray;
+    }
+   
+    
+    .paragraph2{
+        font-size: 15px;
+        line-height: 20px;
+         font-family:'Share Tech', sans-serif; 
+    }
+    .paragraph2EL{
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Roboto Slab', serif;
+}
+.paragraph4EL{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.photo-gallery{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 60px;
+    cursor: url('Hacker\ Cursor.png'), auto;
+    
+}
+
+.pic{
+    position: relative;
+    height: 250px;
+    width: 160px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+.photo-gallery .pic img:hover
+{
+    filter:grayscale(100);
+    transform: scale(1.1);
+    cursor: url('hand2.png'), auto;
+
+}
+
+    
+}
+
 
 /* the rest of the css code is the checker for all the pictures.*/
 
