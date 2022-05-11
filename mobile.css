@@ -100,7 +100,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        /* width: 479px; */
+        
     }
     nav .mainMenu {
         height: 100vh;
