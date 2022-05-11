@@ -100,6 +100,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
+        width: 199px;
         
     }
     nav .mainMenu {
@@ -192,6 +193,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
+        width: 1299px;
     }
     nav .mainMenu {
         display: flex;
