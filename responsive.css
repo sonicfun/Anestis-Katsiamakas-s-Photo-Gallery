@@ -769,6 +769,45 @@
 
 }
 
+
+@media (max-width:800px) {
+    #menu {
+        position:absolute;
+        top:60px;
+        left:-100%;
+        transition: 0.4s linear;
+        width: 100%;
+    }
+     nav > ul {
+         position: absolute;
+         top: 70px;
+         left: -100%;
+         width: 100%;
+         transition: 0.8s linear;
+     }
+ 
+     nav ul li {
+         display: block;
+     }
+ 
+     label {
+         display: flex;
+         margin-right: 10px;
+     }
+ 
+ 
+ 
+     nav ul li ul {
+         width: max-content;
+         z-index: 1;
+     }
+ 
+     input:checked ~ #menu {
+         left: 0;
+     }
+ 
+ 
+ }  
 @media (min-width:800px) {
 
 
