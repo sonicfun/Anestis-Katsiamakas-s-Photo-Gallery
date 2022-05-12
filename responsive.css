@@ -240,7 +240,13 @@
 @media screen and (min-width:768px)
 {
  
-  
+    .navbar2{
+        width: 195%;
+        color:#fff;
+        background-color:black;
+        height:100px;
+     
+    } 
 .container6{
   width: 60%;
   max-width: 900px;
