@@ -88,13 +88,22 @@
 
 
 
-.navbar{
+ .navbar{
     width: 115%;
     color:#fff;
     background-color:black;
     height:70px;
  
 } 
+
+.navbar2{
+    width: 115%;
+    color:#fff;
+    background-color:black;
+    height:70px;
+ 
+} 
+
 
 
 

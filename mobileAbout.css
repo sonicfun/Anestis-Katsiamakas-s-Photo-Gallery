@@ -14,7 +14,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
-   
+    
 }
 nav .mainMenu {
     display: flex;
@@ -54,7 +54,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        
+        width: 784px;
     }
     nav .mainMenu {
         height: 100vh;
@@ -101,7 +101,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-   
+        width: 1487px;
     }
     nav .mainMenu {
         display: flex;
