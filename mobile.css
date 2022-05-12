@@ -91,7 +91,53 @@ nav .mainMenu .closeMenu , .icons i {
     }
 }
 
+@media(max-width: 737px){
+ 
+    nav {
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+   
+    }
+    nav .mainMenu {
+        display: flex;
+        list-style: none;
+    }
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
 
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        background: rgb(49, 49, 49);
+        font-size: 2.6rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+}
 
 
 @media(max-width: 800px){

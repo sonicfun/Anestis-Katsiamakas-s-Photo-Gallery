@@ -195,7 +195,7 @@
      
  }
  
-@media screen and (min-width:737px)
+@media screen and (min-width:600px)
 {
  
     .navbar2{
@@ -377,10 +377,10 @@
         font-size: 0.75rem;
       }
       .paragraph2{
-          font-size:1.75rem;
+          font-size:1.1rem;
       }
       .paragraph2EL{
-        font-size:0.6rem;
+        font-size:0.5rem;
     } 
  
       .paragraphEL2{
