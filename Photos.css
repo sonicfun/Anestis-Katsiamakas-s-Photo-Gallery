@@ -102,6 +102,100 @@ label:hover{
 
 }
 
+/* 
+@media(max-width: 320px){
+ 
+
+    .container3{
+        width:100%;
+        text-align: center;
+       
+    }
+    
+    .top-content{
+        background-color: rgb(26, 26, 26);
+        width:199%;
+        margin: 0 auto 20-x auto;
+        height: 59px;
+        display: flex;
+        align-items: center;  
+        
+    }
+    h3{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+    h5{
+        height: 70%;
+        background-color:gray;
+        line-height: 30px;
+        padding: 0 30px;
+        color:white;
+    }
+
+    label{
+        display: inline-block;
+        height: 70%;
+        margin: 1px;
+        line-height:5px;
+        font-size: 14px;
+        color:white;
+        cursor: pointer;
+        transition: color .5s;
+
+    }
+    label:hover{
+        color:gray;
+    }
+    
+    
+    
+    .paragraph2{
+     font-size: 0.5rem;
+    }
+    .paragraph2EL{
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Roboto Slab', serif;
+}
+.paragraph4EL{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.pic{
+    position: relative;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    transition: .5s;
+    cursor: url('hand2.png'), auto;
+
+}
+.photo-gallery .pic img:hover
+{
+    filter:grayscale(100);
+    transform: scale(1.1);
+    cursor: url('hand2.png'), auto;
+
+}
+
+    
+} */
 
 @media(max-width: 480px){
     /* .navbar{
@@ -126,7 +220,7 @@ label:hover{
     
     .top-content{
         background-color: rgb(26, 26, 26);
-        width:199%;
+        width:219%;
         margin: 0 auto 20-x auto;
         height: 39px;
         display: flex;

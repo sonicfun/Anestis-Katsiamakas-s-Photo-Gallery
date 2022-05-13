@@ -16,6 +16,17 @@ nav {
     justify-content: space-between;
     
 }
+
+/* .top-content{
+    background-color: rgb(26, 26, 26);
+    width:115%;
+    margin: 0 auto 20-x auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    
+} */
 nav .mainMenu {
     display: flex;
     list-style: none;
@@ -47,15 +58,26 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 
-
 @media(max-width: 480px){
     nav {
         background: #000;
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 784px;
+        width: 712px;
     }
+    /* .top-content{
+        background-color: rgb(26, 26, 26);
+        width:125%;
+        margin: 0 auto 20-x auto;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        
+        
+    } */
+
+   
     nav .mainMenu {
         height: 100vh;
         position: fixed;
