@@ -9,7 +9,7 @@ body{
 }
 /*This is the section, alongside with cont 3,6 and the forms */
 section{
-    height: 100vh;
+    height: 106vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
