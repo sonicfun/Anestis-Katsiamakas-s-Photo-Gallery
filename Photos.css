@@ -310,36 +310,13 @@ label:hover{
 
 @media(max-width:600px){
  
-    /* .navbar{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }  
  
- 
-      .navbar2{
-        width: 145%;
-        color:#fff;
-        background-color:black;
-        height:70px;  
-    }   */
     .container3{
         width:100%;
         text-align: center;
        
     }
-    
-    .top-content{
-        background-color: rgb(26, 26, 26);
-        width:399%;
-        margin: 0 auto 20-x auto;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        
-        
-    }
+
     h3{
         height: 100%;
         background-color:gray;
