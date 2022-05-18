@@ -102,8 +102,8 @@ label:hover{
 
 }
 
-/* 
-@media(max-width: 320px){
+
+@media(max-width: 360px){
  
 
     .container3{
@@ -167,6 +167,13 @@ label:hover{
     font-family: 'Roboto Slab', serif;
 }
 
+.photo-gallery {
+    width: 187%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 168px;
+}
 .pic{
     position: relative;
     height: 250px;
@@ -195,7 +202,7 @@ label:hover{
 }
 
     
-} */
+}
 
 @media(max-width: 480px){
     /* .navbar{
@@ -486,16 +493,14 @@ label:hover{
     font-family: 'Roboto Slab', serif;
 }
 
-.photo-gallery{
-    width: 70%;
+/* .photo-gallery {
+    width: 187%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
-    grid-gap: 60px;
-    cursor: url('Hacker\ Cursor.png'), auto;
-    
-}
-
+    grid-gap: 168px;
+    cursor: url(Hacker\ Cursor.png), auto;
+} */
 .pic{
     position: relative;
     height: 250px;
@@ -611,20 +616,21 @@ label:hover{
     font-family: 'Roboto Slab', serif;
 }
 
-.photo-gallery{
-    width: 70%;
+
+
+
+.photo-gallery {
+    width: 248%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
-    grid-gap: 60px;
-    cursor: url('Hacker\ Cursor.png'), auto;
-    
+    grid-gap: 68px;
 }
 
 .pic{
     position: relative;
-    height: 250px;
-    width: 160px;
+    height: 220px;
+    width: 170px;
     border-radius: 30px;
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
@@ -652,22 +658,22 @@ label:hover{
     
 }
 
-@media(max-width: 1200px){
-/*  
-    .navbar{
+@media(max-width: 1020px){
+ 
+    /* .navbar{
         width: 175%;
         color:#fff;
         background-color:black;
         height:90px;  
-    }  
+    }   */
  
  
-      .navbar2{
+      /* .navbar2{
         width: 145%;
         color:#fff;
         background-color:black;
         height:70px;  
-    }   */
+    }    */
     .container3{
         width:100%;
         text-align: center;
@@ -732,13 +738,12 @@ label:hover{
 }
 
 .photo-gallery{
-    width: 70%;
+    width: 110%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     grid-gap: 60px;
     cursor: url('Hacker\ Cursor.png'), auto;
-    
 }
 
 .pic{

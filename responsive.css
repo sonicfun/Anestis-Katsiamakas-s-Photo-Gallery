@@ -296,7 +296,13 @@
        font-size:0.75rem;
    }
 
-
+   .photo-gallery {
+    width: 415%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 68px;
+}
    
     
 .container2
@@ -480,6 +486,14 @@
         display: flex;
         align-items: center;
         
+    }
+
+    .photo-gallery {
+        width:107%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        grid-gap: 164px;
     }
 
 .container6{
