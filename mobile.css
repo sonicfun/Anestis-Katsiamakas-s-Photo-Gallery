@@ -134,7 +134,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 365px;
+        
     }
     nav .mainMenu {
         height: 100vh;
@@ -178,7 +178,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        
+        /* width: 480px; */
     }
     nav .mainMenu {
         height: 100vh;
@@ -223,6 +223,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
+        /* width: 600px; */
       
     }
     nav .mainMenu {
@@ -316,7 +317,7 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        /* width: 827px; */
+         
     }
     nav .mainMenu {
         display: flex;

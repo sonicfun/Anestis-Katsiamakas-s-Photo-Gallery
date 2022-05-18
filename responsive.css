@@ -41,7 +41,7 @@
  
  }  
  
- @media screen and (min-width:360px)
+ @media screen and (min-width:365px)
  {
      .navbar2{
          width: 175%;
@@ -443,7 +443,7 @@
     
    }
  
-     .container6{
+     /* .container6{
       width: 85%;
       max-width: 289px;
       margin: 0 auto;
@@ -451,9 +451,9 @@
       box-shadow: 0px 0px 20px #00000010;
       background-color:slategrey;
       border-radius: 23px;
-      margin-bottom: -31px;
+      margin-bottom: -56px;
       font-size: 0.75rem;
-    }
+    } */
      .paragraph2{
         font-size: 30px;
         line-height: 30px;
