@@ -100,7 +100,17 @@
 
 
 
+section{
+    height: 183vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, rgba(98, 147, 221,0.2) 0%, rgba(98, 147, 221,0.2) 16.667%,rgba(121, 207, 220,0.2) 16.667%, rgba(121, 207, 220,0.2) 33.334%,rgba(75, 86, 222,0.2) 33.334%, rgba(75, 86, 222,0.2) 50.001%,rgba(87, 116, 221,0.2) 50.001%, rgba(87, 116, 221,0.2) 66.668%,rgba(64, 56, 222,0.2) 66.668%, rgba(64, 56, 222,0.2) 83.335%,rgba(110, 177, 220,0.2) 83.335%, rgba(110, 177, 220,0.2) 100.002%),linear-gradient(90deg, rgba(98, 147, 221,0.2) 0%, rgba(98, 147, 221,0.2) 16.667%,rgba(121, 207, 220,0.2) 16.667%, rgba(121, 207, 220,0.2) 33.334%,rgba(75, 86, 222,0.2) 33.334%, rgba(75, 86, 222,0.2) 50.001%,rgba(87, 116, 221,0.2) 50.001%, rgba(87, 116, 221,0.2) 66.668%,rgba(64, 56, 222,0.2) 66.668%, rgba(64, 56, 222,0.2) 83.335%,rgba(110, 177, 220,0.2) 83.335%, rgba(110, 177, 220,0.2) 100.002%),linear-gradient(0deg, rgba(98, 147, 221,0.2) 0%, rgba(98, 147, 221,0.2) 16.667%,rgba(121, 207, 220,0.2) 16.667%, rgba(121, 207, 220,0.2) 33.334%,rgba(75, 86, 222,0.2) 33.334%, rgba(75, 86, 222,0.2) 50.001%,rgba(87, 116, 221,0.2) 50.001%, rgba(87, 116, 221,0.2) 66.668%,rgba(64, 56, 222,0.2) 66.668%, rgba(64, 56, 222,0.2) 83.335%,rgba(110, 177, 220,0.2) 83.335%, rgba(110, 177, 220,0.2) 100.002%),linear-gradient(90deg, rgb(125, 161, 246),rgb(27, 147, 241));
 
+}
 
 
 nav ul{
@@ -241,14 +251,14 @@ nav ul li:hover > ul {
 
 .container2
 {
-  width: 1300px;
-  height: 1050px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-  grid-gap: 40px;
-  padding: 200px;
-  box-sizing: border-box ;
+    width: 467px;
+    height: 1607px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap: 40px;
+    padding: 16px;
+    box-sizing: border-box;
 
 }
 .container2 .box{
@@ -266,11 +276,11 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 80px;
+    font-size: 27px;
     color:black;
     z-index: 1;
     opacity: 0.4;
-    font-family:"Cookie";
+    font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
  
 }
@@ -279,11 +289,11 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 35px;
+    font-size: 19.8px;
     color:black;
     z-index: 1;
     opacity: 0.4;
-    font-family:"Cookie";
+    font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
 }
 
@@ -295,7 +305,7 @@ nav ul li:hover > ul {
     padding:0;
     font-size: 20px;
     color:black;
-    font-family:"Cookie";
+    font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
 }
 
@@ -355,16 +365,15 @@ nav ul li:hover > ul {
 }
 
 
-.container4
-{
-  width: 1300px;
-  height: 1050px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-  grid-gap: 40px;
-  padding: 200px;
-  box-sizing: border-box ;
+.container4 {
+    width: 458px;
+    height: 1075px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap: 40px;
+    padding: -20px;
+    box-sizing: border-box;
 }
 .container4 .box2{
     position: relative;
@@ -380,7 +389,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 80px;
+    font-size: 41px;
     color:black;
     z-index: 1;
     opacity: 0.4;
@@ -402,7 +411,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 17px;
+    font-size: 13.9px;
     color:black;
     font-family: 'Roboto Slab', serif; 
 }
