@@ -415,3 +415,16 @@ nav ul li:hover > ul {
     color:black;
     font-family: 'Roboto Slab', serif; 
 }
+
+.image{
+    width: 100%;
+    margin-top: 100px;
+}
+img{
+    height: 293px;
+    width: 179px;
+    display: block;
+    margin: -142px 269px -161px;
+    border-radius: 46%;
+    border: 7px solid #0091;
+}
