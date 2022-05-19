@@ -252,7 +252,7 @@ nav ul li:hover > ul {
 .container2
 {
     width: 339px;
-    height: 1168px;
+    height: 1107px;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
@@ -303,7 +303,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size:9.2px;
+    font-size:8.9px;
     color:black;
     font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
