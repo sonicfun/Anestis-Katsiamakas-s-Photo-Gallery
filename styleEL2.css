@@ -251,8 +251,8 @@ nav ul li:hover > ul {
 
 .container2
 {
-    width: 467px;
-    height: 1607px;
+    width: 346px;
+    height: 1287px;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
@@ -292,7 +292,7 @@ nav ul li:hover > ul {
     font-size: 19.8px;
     color:black;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 1.4;
     font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
 }
@@ -303,7 +303,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 20px;
+    font-size:10.8px;
     color:black;
     font-family: 'Share Tech', sans-serif;
     cursor: url('I.png'), auto;
@@ -366,7 +366,7 @@ nav ul li:hover > ul {
 
 
 .container4 {
-    width: 458px;
+    width: 326px;
     height: 1075px;
     margin: 0 auto;
     display: grid;
@@ -389,7 +389,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 41px;
+    font-size: 21px;
     color:black;
     z-index: 1;
     opacity: 0.4;
@@ -400,7 +400,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 30px;
+    font-size: 18px;
     color:black;
     font-family: 'Roboto Slab', serif; 
 }
@@ -411,7 +411,7 @@ nav ul li:hover > ul {
     position:relative;
     margin: 0;
     padding:0;
-    font-size: 13.9px;
+    font-size: 8.8px;
     color:black;
     font-family: 'Roboto Slab', serif; 
 }
@@ -424,7 +424,7 @@ img{
     height: 293px;
     width: 179px;
     display: block;
-    margin: -142px 269px -161px;
+    margin:-142px -18px 32px;
     border-radius: 46%;
     border: 7px solid #0091;
 }
