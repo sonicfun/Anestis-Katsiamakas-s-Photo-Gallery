@@ -242,7 +242,7 @@ nav .mainMenu .closeMenu , .icons i {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: -13px;
+        top: 3px;
         right: 20px;
         font-size: 83px;
 
