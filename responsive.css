@@ -1595,7 +1595,13 @@
      
     } 
     
-
+    .photo-gallery {
+        width: 107%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        grid-gap: 106px;
+      }
  .container2
 {
   width: 1300px;
