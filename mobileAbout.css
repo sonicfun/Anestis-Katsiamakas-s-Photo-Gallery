@@ -17,16 +17,7 @@ nav {
     
 }
 
-/* .top-content{
-    background-color: rgb(26, 26, 26);
-    width:115%;
-    margin: 0 auto 20-x auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    
-    
-} */
+
 nav .mainMenu {
     display: flex;
     list-style: none;
@@ -235,7 +226,7 @@ nav .mainMenu .closeMenu , .icons i {
         list-style: none;
     }
     nav .mainMenu {
-        height: 190vh;
+        height: 100%;
         position: fixed;
         top: 0;
         right: 0;
