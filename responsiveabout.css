@@ -456,7 +456,7 @@
     
    .container4
    {
-    width: 354px;
+    width: 320px;
     height: 1110px;
     margin: 0 auto;
     display: grid;
@@ -469,7 +469,7 @@
        position: relative;
        background:white;
        box-shadow: 20px 20px 30px black;
-       padding: 40px 90px 90px;
+       padding: 50px 62px 90px;
        text-align: center;
        overflow: hidden;
       
