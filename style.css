@@ -205,7 +205,7 @@ label span {
 }
 
 
-.section{
+/* .section{
     
     position:relative;
     width: 100%;
@@ -216,7 +216,7 @@ label span {
     align-items:center;
     justify-content: center;
     overflow: hidden;
-}
+} */
 
 .section h1 {
     position:absolute;

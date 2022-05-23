@@ -101,7 +101,7 @@
 
 
 section{
-    height: 96vh;
+    height: 183vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
@@ -424,7 +424,7 @@ img{
     height: 293px;
     width: 179px;
     display: block;
-    margin:-142px 9px 32px;
+    margin:-142px -28px 32px;
     border-radius: 46%;
     border: 7px solid #0091;
 }
