@@ -242,7 +242,14 @@
         
     }
 
-   
+    .lightbox{
+        width: 388%;
+        margin: 0px 0px 0px;
+        z-index: 10000;
+        font-weight: 400;
+        outline: 0;
+    }
+    
    .container2
  {
     width: 354px;
@@ -411,7 +418,7 @@
      font-size:0.75rem;
    }
    section{
-    height: 170vh;;
+    height: 96vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
@@ -517,7 +524,13 @@
         height:100px;
      
     } 
-
+    .lightbox{
+        width: 388%;
+        margin: 0px 0px 0px;
+        z-index: 10000;
+        font-weight: 400;
+        outline: 0;
+    }
     
    .section3{
      font-size:0.75rem;
@@ -821,6 +834,13 @@
   width:100%;
   text-align: center;
  
+}
+.lightbox{
+    width: 271%;
+    margin: 0px 0px 0px;
+    z-index: 10000;
+    font-weight: 400;
+    outline: 0;
 }
 
 
