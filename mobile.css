@@ -369,7 +369,7 @@ nav .mainMenu .closeMenu , .icons i {
         position: absolute;
         top: 5px;
         right: 20px;
-        font-size: 98px;
+        font-size: 48px;
 
     }
     nav .openMenu {
@@ -377,11 +377,11 @@ nav .mainMenu .closeMenu , .icons i {
     }
     nav .mainMenu li a {
         display: inline-block;
-        padding: 53px 60px;
+        padding: 7px 60px;
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
-        font-size: 4.90rem;
+        font-size: 1.90rem;
           
     }
     nav .mainMenu li a:hover {
