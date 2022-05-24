@@ -14,21 +14,19 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    
+   
 }
-
-
 nav .mainMenu {
     display: flex;
     list-style: none;
 }
 nav .mainMenu li a {
     display: inline-block;
-    padding: 35px 90px;
+    padding: 0 60px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    font-size: 4.6rem;
+    font-size: 1.6rem;
       
 }
 nav .mainMenu li a:hover {
@@ -47,27 +45,15 @@ nav .mainMenu .closeMenu , .icons i {
     display: none;
     cursor: pointer;
 }
- 
-@media(max-width: 360px){
+
+@media(max-width: 365px){
     nav {
         background: #000;
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 716px;
+      
     }
-    .top-content{
-        background-color: rgb(26, 26, 26);
-        width:415%;
-        margin: 0 auto 20-x auto;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        
-        
-    }
-
-   
     nav .mainMenu {
         height: 100vh;
         position: fixed;
@@ -102,6 +88,54 @@ nav .mainMenu .closeMenu , .icons i {
         padding: 12px;
     }
 }
+
+
+@media(max-width: 360px){
+
+    nav .mainMenu {
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .mainMenu li a {
+        display: inline-block;
+        padding: 0 60px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.90rem;
+          
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        background: rgb(49, 49, 49);
+        font-size: 2.9rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+}
+
 
 @media(max-width: 480px){
     nav {
@@ -109,22 +143,63 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 716px;
+        
     }
-     .top-content{
-        background-color: rgb(26, 26, 26);
-        width:415%;
-        margin: 0 auto 20-x auto;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        
-        
-    } 
-
-   
     nav .mainMenu {
-        height: 100vh;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .mainMenu li a {
+        display: inline-block;
+        padding: 0 60px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.90rem;
+          
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        background: rgb(49, 49, 49);
+        font-size: 2.9rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+}
+
+
+@media(max-width: 480px){
+    nav {
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    nav .mainMenu {
+        height: 100%;
         position: fixed;
         top: 0;
         right: 0;
@@ -147,6 +222,15 @@ nav .mainMenu .closeMenu , .icons i {
     nav .openMenu {
         display: block;
     }
+    nav .mainMenu li a {
+        display: inline-block;
+        padding: 35px 60px;;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 3.90rem;
+          
+    }
     nav .mainMenu li a:hover {
         background: none;
         background: rgb(49, 49, 49);
@@ -157,8 +241,6 @@ nav .mainMenu .closeMenu , .icons i {
         padding: 12px;
     }
 }
-
-
 
 
 @media(max-width: 600px){
@@ -168,7 +250,52 @@ nav .mainMenu .closeMenu , .icons i {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 712px;
+
+      
+    }
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        background: rgb(49, 49, 49);
+        font-size: 2.9rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+}
+
+@media(max-width: 737px){
+ 
+    nav {
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+   
     }
     nav .mainMenu {
         display: flex;
@@ -210,16 +337,14 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 
-
-
 @media(max-width: 800px){
  
-     nav {
+    nav {
         background: #000;
         color: #fff;
         display: flex;
         justify-content: space-between;
-        width: 1487px;
+         
     }
     nav .mainMenu {
         display: flex;
@@ -242,13 +367,22 @@ nav .mainMenu .closeMenu , .icons i {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 3px;
+        top: 5px;
         right: 20px;
-        font-size: 170px;
+        font-size: 129px;
 
     }
     nav .openMenu {
         display: block;
+    }
+    nav .mainMenu li a {
+        display: inline-block;
+        padding: 44px 60px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 3.9rem;
+          
     }
     nav .mainMenu li a:hover {
         background: none;
@@ -258,5 +392,14 @@ nav .mainMenu .closeMenu , .icons i {
     .icons i {
         display: inline-block;
         padding: 12px;
+    }
+    .lightbox{ 
+   
+        margin:299px 449px 1px;
+        z-index: 10000;
+        font-weight: 400;
+        outline: 0;
+        display: block;
+    
     } 
-} 
+}
