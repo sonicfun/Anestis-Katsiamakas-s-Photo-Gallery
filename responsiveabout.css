@@ -8,7 +8,7 @@
         height: 293px;
         width: 179px;
         display: block;
-        margin: -138px -2px 4px;
+        margin: -138px 6px 4px;
         border-radius: 46%;
         border: 7px solid #0091;
     }
@@ -306,7 +306,7 @@
    .container4 .box2 h3
    {
     position: relative;
-    margin: 174px -4px;
+    margin: 2px -19px;
     padding: 0;
     font-size: 80px;
     color: rgb(0, 0, 0);
@@ -319,7 +319,7 @@
    .container4 .box2 h4
    {
     position: relative;
-    margin: -171px 4px;
+    margin: 11px 4px;
     padding: 0;
     font-size: 35px;
     color: rgb(27, 27, 27);
@@ -333,7 +333,7 @@
    .container4 .box2 p
    {
     position: relative;
-    margin: 178px 0px;
+    margin:-2px 0px;
     padding: 0;
     font-size: 9px;
     color: black;

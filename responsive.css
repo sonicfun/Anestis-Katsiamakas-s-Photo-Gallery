@@ -418,7 +418,7 @@
      font-size:0.75rem;
    }
    section{
-    height: 117vh;
+    height: 175vh;
     width: 100%;
     background-color: aliceblue;
     display: flex;
@@ -524,14 +524,14 @@
         height:100px;
      
     } 
-    /* .lightbox{
-        width: 388%;
-        margin: 0px 0px 0px;
+     .lightbox{
+        width: 399%;
+        margin: 545px 0px 0px;
         z-index: 10000;
         font-weight: 400;
         outline: 0;
     }
-     */
+     
    .section3{
      font-size:0.75rem;
    }
@@ -849,7 +849,7 @@
 } */
  .lightbox{ 
    
-    margin: 116px 118px 1px;
+    margin:299px 449px 1px;
     z-index: 10000;
     font-weight: 400;
     outline: 0;
