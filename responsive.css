@@ -66,12 +66,10 @@
     position: relative;
     margin: 11px 4px;
     padding: 0;
-    font-size: 35px;
     color: rgb(27, 27, 27);
     z-index: 1;
     opacity: 1;
     font-family: 'Share Tech', sans-serif;
-
     font-size: 1.7rem;
  }
  
@@ -81,21 +79,12 @@
     position: relative;
     margin: 7px 0px;
     padding: 0;
-    font-size: 10px;
     color: black;
     font-family: 'Share Tech', sans-serif;
-   
     font-size: 0.82rem;
   
  } 
      
- 
- 
-     .container3{
-       font-size:0.75rem;
-   }
-   
- 
    .container4
    {
     width: 354px;
@@ -122,12 +111,10 @@
     position: relative;
     margin: 0px -4px;
     padding: 0;
-    font-size: 80px;
     color: rgb(0, 0, 0);
     z-index: 1;
     opacity: 0.4;
     font-family: 'Roboto Slab', serif;
- 
     font-size: 1.9rem;
    }
    .container4 .box2 h4
@@ -135,7 +122,6 @@
     position: relative;
     margin: 3px 4px;
     padding: 0;
-    font-size: 35px;
     color: rgb(27, 27, 27);
     z-index: 1;
     opacity: 2;
@@ -149,7 +135,6 @@
     position: relative;
     margin: 11px 0px;
     padding: 0;
-    font-size: 9px;
     color: black;
     font-family: 'Roboto Slab', serif;
     font-size: 0.59rem;
@@ -225,11 +210,6 @@
       
      } 
      
- 
-   
-     .section3{
-       font-size:0.75rem;
-     }
      
      .top-content{
         background-color: rgb(26, 26, 26);
@@ -242,14 +222,7 @@
         
     }
 
-    /* .lightbox{
-        width: 388%;
-        margin: 0px 0px 0px;
-        z-index: 10000;
-        font-weight: 400;
-        outline: 0;
-    }
-     */
+
    .container2
  {
     width: 354px;
@@ -292,12 +265,10 @@
     position: relative;
     margin: 11px 4px;
     padding: 0;
-    font-size: 35px;
     color: rgb(27, 27, 27);
     z-index: 1;
     opacity: 1;
     font-family: 'Share Tech', sans-serif;
-
     font-size: 1.7rem;
  }
  
@@ -310,17 +281,10 @@
     font-size: 10px;
     color: black;
     font-family: 'Share Tech', sans-serif;
-   
     font-size: 0.82rem;
   
  } 
      
- 
- 
-     .container3{
-       font-size:0.75rem;
-   }
-   
  
    .container4
    {
@@ -348,12 +312,10 @@
     position: relative;
     margin: 0px -4px;
     padding: 0;
-    font-size: 80px;
     color: rgb(0, 0, 0);
     z-index: 1;
     opacity: 0.4;
     font-family: 'Roboto Slab', serif;
- 
     font-size: 1.9rem;
    }
    .container4 .box2 h4
@@ -361,7 +323,6 @@
     position: relative;
     margin: 3px 4px;
     padding: 0;
-    font-size: 35px;
     color: rgb(27, 27, 27);
     z-index: 1;
     opacity: 2;
@@ -375,7 +336,6 @@
     position: relative;
     margin: 11px 0px;
     padding: 0;
-    font-size: 9px;
     color: black;
     font-family: 'Roboto Slab', serif;
     font-size: 0.59rem;
@@ -414,9 +374,6 @@
     } 
 
     
-   .section3{
-     font-size:0.75rem;
-   }
    section{
     height: 175vh;
     width: 100%;
@@ -429,10 +386,6 @@
 
 }
  
-   .container3{
-       font-size:0.75rem;
-   }
-
    .photo-gallery {
     width: 415%;
     margin: auto;
@@ -524,6 +477,7 @@
         height:100px;
      
     } 
+      /* This is the lightbox with places the position of the picture.*/
      .lightbox{
         width: 399%;
         margin: 545px 0px 0px;
@@ -532,14 +486,6 @@
         outline: 0;
     }
      
-   .section3{
-     font-size:0.75rem;
-   }
-
- 
-   .container3{
-       font-size:0.75rem;
-   }
 
    .photo-gallery {
     width: 415%;
@@ -614,17 +560,6 @@
   margin-bottom: 20px;
   font-size: 0.75rem;
 }
-    
-    .section3{
-      font-size:0.75rem;
-    }
-    
-  
-    .container3{
-        font-size:0.75rem;
-    }
-    
-
     
 
     .paragraph{
@@ -728,17 +663,6 @@
   margin-bottom: 20px;
   font-size: 0.75rem;
 }
-    
-    .section3{
-      font-size:0.75rem;
-    }
-    
-  
-    .container3{
-        font-size:0.75rem;
-    }
-    
-
     .paragraph{
         font-size:0.75rem;
     }
@@ -832,11 +756,7 @@
         grid-template-columns: repeat(5, 2fr);
         grid-gap: 292px;
     }
-.container3{
-  width:100%;
-  text-align: center;
- 
-}
+
 
 
 .paragraph{
@@ -939,15 +859,6 @@
      
     } 
     
-    /* .lightbox{
-       
-        margin: 0px 0px 0px;
-        z-index: 10000;
-        font-weight: 400;
-        outline: 0;
-        display: block;
-      
-    } */
     section{
         height: 100%;
         width: 100%;
@@ -1006,15 +917,5 @@
     
 } 
 
-
-
-  
 }  
 
-
-@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ } 

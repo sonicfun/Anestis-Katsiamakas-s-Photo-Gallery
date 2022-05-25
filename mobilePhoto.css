@@ -393,6 +393,7 @@ nav .mainMenu .closeMenu , .icons i {
         display: inline-block;
         padding: 12px;
     }
+      /* This is the lightbox with places the position of the picture.*/
     .lightbox{ 
    
         margin:299px 449px 1px;

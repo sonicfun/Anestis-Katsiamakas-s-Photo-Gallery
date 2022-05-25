@@ -43,12 +43,6 @@
 
 }
 
-.paragraph5EL{
-    font-size: 17px;
-    line-height: 80px; 
-    font-family: 'Roboto Slab', serif; 
-
-}
 .paragraph2{
     font-size: 30px;
     line-height: 30px;
@@ -60,32 +54,6 @@
     line-height: 30px;
   
 }
-
-.paragraph2EL1{
-    font-size: 10px;
-    line-height: 30px;
-  
-}
-
-.paragraph4EL{
-    font-size: 30px;
-    line-height: 60px;
-  
-}
-.paragraph3{
-    font-size: 100px;
-    line-height: 60px;
-    font-family:"Cookie";
-}
-
-/* .navbar2{
-    width: 115%;
-    color:#fff;
-    background-color:black;
-    height:70px;
- 
-}  */
-
 
 
 .navbar .container6{
@@ -217,37 +185,6 @@ nav ul li:hover > ul {
     overflow: hidden;
 }
 
-.video-container{
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    
-}
-
-.color-overlay{
-    position: absolute;
-    top:0;
-    left: 0;
-    background-color:#fff;
-    width:100%;
-    height:100vh;
-    opacity: 0.5;
-}
-
-@keyframes transitionIn{
-    from {
-        opacity:0;
-        transform:rotateX(-10deg);
-    }
-
-    to {
-        opacity: 1;
-        transform:rotateX(0);
-    }
-}
-
-
 
 .container2
 {
@@ -309,60 +246,7 @@ nav ul li:hover > ul {
     cursor: url('I.png'), auto;
 }
 
-.container5
-{
-  width: 1300px;
-  height: 1050px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-  grid-gap: 40px;
-  padding: 200px;
-  box-sizing: border-box ;
-}
-.container5 .box2{
-    position: relative;
-    background:white;
-    box-shadow: 20px 20px 30px black;
-    padding: 40px 90px 90px;
-    text-align: center;
-    overflow: hidden;
-}
 
-.container5 .box2 h3
-{
-    position:relative;
-    margin: 0;
-    padding:0;
-    font-size: 80px;
-    color:black;
-    z-index: 1;
-    opacity: 0.4;
-    font-family: 'Roboto Slab', serif; 
-}
-.container5 .box2 h4
-{
-    position:relative;
-    margin: 0;
-    padding:0;
-    font-size: 30px;
-    color:black;
-    z-index: 1;
-    opacity: 0.4;
-    font-family: 'Roboto Slab', serif; 
-}
-
-
-.container5 .box2 p
-{
-    position:relative;
-    margin: 0;
-    padding:0;
-    font-size: 17px;
-    color:black;
-    font-family: 'Roboto Slab', serif; 
-    
-}
 
 
 .container4 {
@@ -416,10 +300,12 @@ nav ul li:hover > ul {
     font-family: 'Roboto Slab', serif; 
 }
 
+  /* This is the photo from the deceased css. The width and position.*/
 .image{
     width: 100%;
     margin-top: 100px;
 }
+
 img{
     height: 293px;
     width: 179px;

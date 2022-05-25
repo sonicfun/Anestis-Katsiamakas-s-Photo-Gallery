@@ -393,13 +393,5 @@ nav .mainMenu .closeMenu , .icons i {
         display: inline-block;
         padding: 12px;
     }
-    .lightbox{ 
-   
-        margin:299px 449px 1px;
-        z-index: 10000;
-        font-weight: 400;
-        outline: 0;
-        display: block;
-    
-    } 
+ 
 }

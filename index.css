@@ -1,3 +1,4 @@
+ /* This is the background behind the video. */
 #hero {
     height:100vh;
     width:100%;
@@ -8,7 +9,7 @@
 }
 
 
-
+ /* the color of the background texture. */
 #hero::after {
 width:100%;
 height:100%;
@@ -20,7 +21,7 @@ left:0;
 background:rgba(0,0,0,0.5)
 }
 
-
+ /* the video */
 #hero video {
 width:100%;
 height:100%;
@@ -32,7 +33,7 @@ object-fit:cover;
 font-family:'object-fit: cover';
 }
 
-
+/* the texture which covers the video */
 #hero .texture {
 width:100%;
 height:100%;
@@ -43,7 +44,8 @@ z-index:15;
 background:url('texture.png');
 }
 
-
+ /* This is the caption of the letters. H1 is for header 1. The A i for the letter from the button.
+ The hover is when the user is using the cursor. Reaching the button and it changes into white.*/
 #hero .caption {
 
 position:relative;
@@ -81,6 +83,7 @@ margin-bottom:0.5rem;
     background-color: #fff;
 }
 
+ /* the transition cover. With the slides transition. */
 .cover {
     position: fixed;
     height: 100vh;
@@ -113,7 +116,7 @@ margin-bottom:0.5rem;
   }
 
 
-
+  /* The rest of css is media screen from mobile to computer.*/
 @media screen and (min-width:768px)
 {
   #hero {
