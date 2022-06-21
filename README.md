@@ -5,7 +5,7 @@ This is a photo gallery Website. Created using HTML, CSS and Javascript(with JQu
 
 It contains 8 pages. Half of them are localized in Greek.
 
-First page is the introduction. A short video is being played. To showcase what kind of picture the user will see.
+First page is the introduction. A short video is being played. To showcase what kind of pictures the user will see.
 
 Second page is the about. It showcases a picture of the deceased with a description.
 
