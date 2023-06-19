@@ -154,10 +154,7 @@
      .paragraph2{
        font-size:1.95rem;
    }
-   .paragraphEL2{
-     font-size:1.12rem;
- } 
- 
+
    
  }  
 
@@ -355,10 +352,6 @@
      .paragraph2{
        font-size:1.95rem;
    }
-   .paragraphEL2{
-     font-size:1.12rem;
- } 
- 
    
  }  
 
@@ -471,7 +464,7 @@
  @media screen and (max-width:480px){
    
     .navbar2{
-        width: 415%;
+        width: 301%;
         color:#fff;
         background-color:black;
         height:100px;
@@ -484,12 +477,12 @@
         z-index: 10000;
         font-weight: 400;
         outline: 0;
-        
+
     }
      
 
    .photo-gallery {
-    width: 139%;
+    width: auto;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
@@ -507,15 +500,13 @@
      .paragraph2{
         font-size: 30px;
         line-height: 30px;
-         font-size:1.78rem;
+         font-size:1.38rem;
      }
      .paragraph2EL{
-        font-size:0.7rem;
+        font-size:0.5rem;
     } 
 
-     .paragraphEL2{
-         font-size:0.75rem;
-     }
+  
      
  }
  
@@ -523,7 +514,7 @@
 {
   
     .navbar2{
-        width: 248%;
+        width: 250%;
         color:#fff;
         background-color:black;
         height:100px;
@@ -541,7 +532,7 @@
     }
 
     .photo-gallery {
-        width:107%;
+        width:100%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(5, 2fr);
@@ -592,12 +583,7 @@
         font-size:0.5rem;
     } 
  
-      .paragraphEL2{
-          font-size:0.75rem;
-      }
-      
-    
-     
+   
 
 }
  
@@ -692,13 +678,8 @@
       .paragraph2EL{
         font-size:1.12rem;
     } 
- 
-      .paragraphEL2{
-          font-size:0.75rem;
-      }
-      
-    
-     
+
+
 
 }
 
@@ -789,10 +770,6 @@
     font-size:0.8rem;
 } 
 
-  .paragraphEL2{
-      font-size:0.75rem;
-  }
-  
 }
 
 
@@ -842,9 +819,6 @@
         line-height: 30px;
       font-size:1.95rem;
   }
-  .paragraphEL2{
-    font-size:1.12rem;
-} 
 
   
 }
@@ -913,10 +887,6 @@
         line-height: 30px;
       font-size:1.95rem;
   }
-  .paragraphEL2{
-    font-size:1.12rem;
-    
-} 
 
 }  
 
