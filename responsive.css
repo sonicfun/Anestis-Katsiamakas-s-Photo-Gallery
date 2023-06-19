@@ -484,11 +484,12 @@
         z-index: 10000;
         font-weight: 400;
         outline: 0;
+        
     }
      
 
    .photo-gallery {
-    width: 415%;
+    width: 139%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
