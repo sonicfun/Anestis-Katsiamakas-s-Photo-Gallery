@@ -464,7 +464,7 @@
  @media screen and (max-width:480px){
    
     .navbar2{
-        width: 302%;
+        width: 400%;
         color:#fff;
         background-color:black;
         height:100px;
@@ -486,7 +486,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 2fr);
-    grid-gap: 68px;
+    grid-gap: 142px;
 }
 
 
@@ -514,7 +514,7 @@
 {
   
     .navbar2{
-        width: 260%;
+        width: 359.5%;
         color:#fff;
         background-color:black;
         height:100px;
