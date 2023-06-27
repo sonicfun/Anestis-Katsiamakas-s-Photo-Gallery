@@ -3,12 +3,12 @@
 
 This is a photo gallery Website. Created using HTML, CSS and Javascript(with JQuery implementation).
 
-It contains 8 pages. Half of them are localized in Greek.
+It contains multiple pages. Half of them are localized in Greek.
 
-First page is the introduction. A short video is being played. To showcase what kind of pictures the user will see.
+The first page is the introduction. A short video is being played. To showcase what kind of pictures the user will see.
 
-Second page is the about. It showcases a picture of the deceased with a description.
+The second page is the About section. It showcases a picture of the deceased with a description.
 
-Third page is the photo gallery. It contains a label for each category. 
+The third page is the photo gallery. It contains a label for each category. 
 
-Fourth page is conctact. It has a form which you can write the creator of the website. To make sure that you can make the feature to work. Make sure to sign in at https://formspree.io/forms to create a form API. The method POST is used for the user to write their request and being send to the creator of the site.
+The fourth page is contact. It has a form in which you can write the creator of the website. To make sure that you can make the feature work. Make sure to sign in at https://formspree.io/forms to create a form API. The POST method is used for the user to write their request and send it to the creator of the site.
