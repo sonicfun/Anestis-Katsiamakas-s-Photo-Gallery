@@ -5,7 +5,7 @@
    
     font-family:'Share Tech', sans-serif;
 
-    cursor: url('hand2.png'), auto;
+    /* cursor: url('hand2.png'), auto; */
 }
 
 body{
@@ -492,11 +492,6 @@ label:hover{
     
 }
 
-
-
-
-
-
 @media(max-width: 800px){
  
 
@@ -622,6 +617,9 @@ label:hover{
         
         
     }
+    
+    
+    
     h3{
         height: 100%;
         background-color:gray;
@@ -656,12 +654,25 @@ label:hover{
     .paragraph2{
         font-size: 15px;
         line-height: 20px;
+        margin: 0 auto 20-x auto;
          font-family:'Share Tech', sans-serif; 
     }
     .paragraph2EL{
     font-size: 10px;
     line-height: 13px;
     font-family: 'Roboto Slab', serif;
+}
+
+.paragraph3{
+    display: inline-block;
+    height: 100%;
+    margin: 14px;
+    line-height:10px;
+    font-size: 14px;
+    color:white;
+    cursor: pointer;
+    
+    font-family:'Share Tech', sans-serif; 
 }
 .paragraph4EL{
     font-size: 30px;
@@ -686,6 +697,7 @@ label:hover{
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
     transition: .5s;
+    cursor: url('hand2.png'), auto;
 
 
 }
@@ -695,13 +707,14 @@ label:hover{
     height: 100%;
     border-radius:20px;
     transition: .5s;
-
+    cursor: url('hand2.png'), auto;
 
 }
 .photo-gallery .pic img:hover
 {
     filter:grayscale(100);
     transform: scale(1.1);
+    cursor: url('hand2.png'), auto;
 
 
 }
@@ -710,280 +723,4 @@ label:hover{
 }
 
 
-/* the rest of the css code is the checker for all the pictures.*/
 
-#check1:checked ~ .container3 .photo-gallery .pic{
-    opacity: 1;
-    transform: scale(1);
-    position: relative;
-    transition: .5s;
-}
-
-
-
-#check2:checked ~ .container3 .photo-gallery .Old{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check2:checked ~ .container3 .photo-gallery .Greece,
-#check2:checked ~ .container3 .photo-gallery .UK,
-#check2:checked ~ .container3 .photo-gallery .Iceland,
-#check2:checked ~ .container3 .photo-gallery .Spain,
-#check2:checked ~ .container3 .photo-gallery .Barbados,
-#check2:checked ~ .container3 .photo-gallery .Bruges,
-#check2:checked ~ .container3 .photo-gallery .Canada,
-#check2:checked ~ .container3 .photo-gallery .Italy,
-#check2:checked ~ .container3 .photo-gallery .New,
-#check2:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check3:checked ~ .container3 .photo-gallery .Greece{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check3:checked ~ .container3 .photo-gallery .Italy,
-#check3:checked ~ .container3 .photo-gallery .UK,
-#check3:checked ~ .container3 .photo-gallery .Iceland,
-#check3:checked ~ .container3 .photo-gallery .Spain,
-#check3:checked ~ .container3 .photo-gallery .Barbados,
-#check3:checked ~ .container3 .photo-gallery .Bruges,
-#check3:checked ~ .container3 .photo-gallery .Canada,
-#check3:checked ~ .container3 .photo-gallery .Old,
-#check3:checked ~ .container3 .photo-gallery .New,
-#check3:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-
-#check4:checked ~ .container3 .photo-gallery .UK{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check4:checked ~ .container3 .photo-gallery .Old,
-#check4:checked ~ .container3 .photo-gallery .Greece,
-#check4:checked ~ .container3 .photo-gallery .Iceland,
-#check4:checked ~ .container3 .photo-gallery .Spain,
-#check4:checked ~ .container3 .photo-gallery .Barbados,
-#check4:checked ~ .container3 .photo-gallery .Bruges,
-#check4:checked ~ .container3 .photo-gallery .Canada,
-#check4:checked ~ .container3 .photo-gallery .Italy,
-#check4:checked ~ .container3 .photo-gallery .New,
-#check4:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-
-
-#check5:checked ~ .container3 .photo-gallery .Iceland{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check5:checked ~ .container3 .photo-gallery .Old,
-#check5:checked ~ .container3 .photo-gallery .Greece,
-#check5:checked ~ .container3 .photo-gallery .UK,
-#check5:checked ~ .container3 .photo-gallery .Spain,
-#check5:checked ~ .container3 .photo-gallery .Barbados,
-#check5:checked ~ .container3 .photo-gallery .Bruges,
-#check5:checked ~ .container3 .photo-gallery .Canada,
-#check5:checked ~ .container3 .photo-gallery .Italy,
-#check5:checked ~ .container3 .photo-gallery .New,
-#check5:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check6:checked ~ .container3 .photo-gallery .Spain{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check6:checked ~ .container3 .photo-gallery .Old,
-#check6:checked ~ .container3 .photo-gallery .Greece,
-#check6:checked ~ .container3 .photo-gallery .UK,
-#check6:checked ~ .container3 .photo-gallery .Iceland,
-#check6:checked ~ .container3 .photo-gallery .Barbados,
-#check6:checked ~ .container3 .photo-gallery .Bruges,
-#check6:checked ~ .container3 .photo-gallery .Canada,
-#check6:checked ~ .container3 .photo-gallery .Italy,
-#check6:checked ~ .container3 .photo-gallery .New,
-#check6:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check7:checked ~ .container3 .photo-gallery .Barbados{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check7:checked ~ .container3 .photo-gallery .Old,
-#check7:checked ~ .container3 .photo-gallery .Greece,
-#check7:checked ~ .container3 .photo-gallery .UK,
-#check7:checked ~ .container3 .photo-gallery .Iceland,
-#check7:checked ~ .container3 .photo-gallery .Spain,
-#check7:checked ~ .container3 .photo-gallery .Bruges,
-#check7:checked ~ .container3 .photo-gallery .Canada,
-#check7:checked ~ .container3 .photo-gallery .Italy,
-#check7:checked ~ .container3 .photo-gallery .New,
-#check7:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check8:checked ~ .container3 .photo-gallery .Bruges{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check8:checked ~ .container3 .photo-gallery .Old,
-#check8:checked ~ .container3 .photo-gallery .Greece,
-#check8:checked ~ .container3 .photo-gallery .UK,
-#check8:checked ~ .container3 .photo-gallery .Iceland,
-#check8:checked ~ .container3 .photo-gallery .Spain,
-#check8:checked ~ .container3 .photo-gallery .Barbados,
-#check8:checked ~ .container3 .photo-gallery .Canada,
-#check8:checked ~ .container3 .photo-gallery .Italy,
-#check8:checked ~ .container3 .photo-gallery .New,
-#check8:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check9:checked ~ .container3 .photo-gallery .Canada{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check9:checked ~ .container3 .photo-gallery .Old,
-#check9:checked ~ .container3 .photo-gallery .Greece,
-#check9:checked ~ .container3 .photo-gallery .UK,
-#check9:checked ~ .container3 .photo-gallery .Iceland,
-#check9:checked ~ .container3 .photo-gallery .Spain,
-#check9:checked ~ .container3 .photo-gallery .Barbados,
-#check9:checked ~ .container3 .photo-gallery .Bruges,
-#check9:checked ~ .container3 .photo-gallery .Italy,
-#check9:checked ~ .container3 .photo-gallery .New,
-#check9:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check10:checked ~ .container3 .photo-gallery .Italy{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check10:checked ~ .container3 .photo-gallery .Old,
-#check10:checked ~ .container3 .photo-gallery .Greece,
-#check10:checked ~ .container3 .photo-gallery .UK,
-#check10:checked ~ .container3 .photo-gallery .Iceland,
-#check10:checked ~ .container3 .photo-gallery .Spain,
-#check10:checked ~ .container3 .photo-gallery .Barbados,
-#check10:checked ~ .container3 .photo-gallery .Bruges,
-#check10:checked ~ .container3 .photo-gallery .Canada,
-#check10:checked ~ .container3 .photo-gallery .New,
-#check10:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check11:checked ~ .container3 .photo-gallery .New{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check11:checked ~ .container3 .photo-gallery .Old,
-#check11:checked ~ .container3 .photo-gallery .Greece,
-#check11:checked ~ .container3 .photo-gallery .UK,
-#check11:checked ~ .container3 .photo-gallery .Iceland,
-#check11:checked ~ .container3 .photo-gallery .Spain,
-#check11:checked ~ .container3 .photo-gallery .Barbados,
-#check11:checked ~ .container3 .photo-gallery .Bruges,
-#check11:checked ~ .container3 .photo-gallery .Canada,
-#check11:checked ~ .container3 .photo-gallery .Italy,
-#check11:checked ~ .container3 .photo-gallery .Articles{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
-
-#check12:checked ~ .container3 .photo-gallery .Articles{
-    transform:scale(1);
-    opacity: 1;
-    position: relative;
-   
-}
-
-#check12:checked ~ .container3 .photo-gallery .Old,
-#check12:checked ~ .container3 .photo-gallery .Greece,
-#check12:checked ~ .container3 .photo-gallery .UK,
-#check12:checked ~ .container3 .photo-gallery .Iceland,
-#check12:checked ~ .container3 .photo-gallery .Spain,
-#check12:checked ~ .container3 .photo-gallery .Barbados,
-#check12:checked ~ .container3 .photo-gallery .Bruges,
-#check12:checked ~ .container3 .photo-gallery .Canada,
-#check12:checked ~ .container3 .photo-gallery .Italy,
-#check12:checked ~ .container3 .photo-gallery .New{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
-    
-}
